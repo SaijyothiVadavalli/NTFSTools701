@@ -25,7 +25,7 @@ PrintWriter pw=res.getWriter();
 		SeasonName="Rainy Season";
 	else
 		SeasonName="Winter Season";
-	pw.println("<h1 style='color:pink;text-align:center'>"+SeasonName +"</h1>");
+	pw.println("<h1 style='color:green;text-align:center'>"+SeasonName +"</h1>");
 	pw.println("<a href='index.jsp'>home<img src='Images/Heart-image.png' width='50' height='50'> </a>");
 pw.close();
 }
